@@ -1,0 +1,34 @@
+{
+  "stocks": [
+    {
+      "stockSymbol": "BABA",
+      "expectedCompanyName": "Alibaba",
+      "expectedPrice": 130
+    },
+    {
+      "stockSymbol": "TSLA",
+      "expectedCompanyName": "Tesla",
+      "expectedPrice": 200
+    },
+    {
+      "stockSymbol": "DELL",
+      "expectedCompanyName": "Dell",
+      "expectedPrice": 70
+    },
+    {
+      "stockSymbol": "XYZ123",
+      "expectedCompanyName": null,
+      "expectedPrice": null
+    },
+    {
+      "stockSymbol": "@#%$!",
+      "expectedCompanyName": null,
+      "expectedPrice": null
+    },
+    {
+      "stockSymbol": " ",
+      "expectedCompanyName": null,
+      "expectedPrice": null
+    }
+  ]
+}

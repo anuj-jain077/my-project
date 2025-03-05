@@ -1,0 +1,1 @@
+{"uuid":"991994fd-01b4-4fe6-829c-acee378785ba","name":"YahooFinanceTest","children":["7bc7d340-cad9-4940-b5e0-9f2be91a0a05"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1741081869968,"stop":1741081955094}],"afters":[],"start":1741081869955,"stop":1741082035461}

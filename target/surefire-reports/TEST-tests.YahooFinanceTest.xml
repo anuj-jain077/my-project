@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.YahooFinanceTest" time="78.97" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/anujjain/Downloads/codeBase/tesla-assignment/target/test-classes:/Users/anujjain/Downloads/codeBase/tesla-assignment/target/classes:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-java/4.29.0/selenium-java-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-api/4.29.0/selenium-api-4.29.0.jar:/Users/anujjain/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.29.0/selenium-chrome-driver-4.29.0.jar:/Users/anujjain/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.29.0/selenium-chromium-driver-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-json/4.29.0/selenium-json-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.29.0/selenium-manager-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.29.0/selenium-devtools-v131-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.29.0/selenium-devtools-v132-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.29.0/selenium-devtools-v133-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.29.0/selenium-devtools-v85-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.29.0/selenium-edge-driver-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.29.0/selenium-firefox-driver-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-http/4.29.0/selenium-http-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.29.0/selenium-ie-driver-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.29.0/selenium-remote-driver-4.29.0.jar:/Users/anujjain/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/anujjain/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/anujjain/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/anujjain/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/anujjain/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/anujjain/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/anujjain/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-os/4.29.0/selenium-os-4.29.0.jar:/Users/anujjain/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.29.0/selenium-safari-driver-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-support/4.29.0/selenium-support-4.29.0.jar:/Users/anujjain/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/anujjain/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/anujjain/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/anujjain/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/anujjain/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.3/webdrivermanager-5.9.3.jar:/Users/anujjain/.m2/repository/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar:/Users/anujjain/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/anujjain/.m2/repository/com/github/docker-java/docker-java/3.4.1/docker-java-3.4.1.jar:/Users/anujjain/.m2/repository/com/github/docker-java/docker-java-core/3.4.1/docker-java-core-3.4.1.jar:/Users/anujjain/.m2/repository/com/github/docker-java/docker-java-api/3.4.1/docker-java-api-3.4.1.jar:/Users/anujjain/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/anujjain/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/anujjain/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/anujjain/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/anujjain/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.1/docker-java-transport-httpclient5-3.4.1.jar:/Users/anujjain/.m2/repository/com/github/docker-java/docker-java-transport/3.4.1/docker-java-transport-3.4.1.jar:/Users/anujjain/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/anujjain/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/anujjain/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/anujjain/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/anujjain/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/anujjain/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/anujjain/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/anujjain/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/anujjain/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/anujjain/.m2/repository/io/qameta/allure/allure-testng/2.29.1/allure-testng-2.29.1.jar:/Users/anujjain/.m2/repository/io/qameta/allure/allure-test-filter/2.29.1/allure-test-filter-2.29.1.jar:/Users/anujjain/.m2/repository/io/qameta/allure/allure-java-commons/2.29.1/allure-java-commons-2.29.1.jar:/Users/anujjain/.m2/repository/io/qameta/allure/allure-model/2.29.1/allure-model-2.29.1.jar:/Users/anujjain/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.3/log4j-core-2.24.3.jar:/Users/anujjain/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/anujjain/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/anujjain/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/anujjain/Downloads/codeBase/tesla-assignment/target/surefire/surefirebooter-20250306004010192_3.jar /Users/anujjain/Downloads/codeBase/tesla-assignment/target/surefire 2025-03-06T00-40-10_049-jvmRun1 surefire-20250306004010192_1tmp surefire_0-20250306004010192_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/anujjain/Downloads/codeBase/tesla-assignment/target/test-classes:/Users/anujjain/Downloads/codeBase/tesla-assignment/target/classes:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-java/4.29.0/selenium-java-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-api/4.29.0/selenium-api-4.29.0.jar:/Users/anujjain/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.29.0/selenium-chrome-driver-4.29.0.jar:/Users/anujjain/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.29.0/selenium-chromium-driver-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-json/4.29.0/selenium-json-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.29.0/selenium-manager-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.29.0/selenium-devtools-v131-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.29.0/selenium-devtools-v132-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.29.0/selenium-devtools-v133-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.29.0/selenium-devtools-v85-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.29.0/selenium-edge-driver-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.29.0/selenium-firefox-driver-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-http/4.29.0/selenium-http-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.29.0/selenium-ie-driver-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.29.0/selenium-remote-driver-4.29.0.jar:/Users/anujjain/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/anujjain/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/anujjain/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/anujjain/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/anujjain/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/anujjain/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/anujjain/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/anujjain/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-os/4.29.0/selenium-os-4.29.0.jar:/Users/anujjain/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.29.0/selenium-safari-driver-4.29.0.jar:/Users/anujjain/.m2/repository/org/seleniumhq/selenium/selenium-support/4.29.0/selenium-support-4.29.0.jar:/Users/anujjain/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/anujjain/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/anujjain/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/anujjain/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/anujjain/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.3/webdrivermanager-5.9.3.jar:/Users/anujjain/.m2/repository/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar:/Users/anujjain/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/anujjain/.m2/repository/com/github/docker-java/docker-java/3.4.1/docker-java-3.4.1.jar:/Users/anujjain/.m2/repository/com/github/docker-java/docker-java-core/3.4.1/docker-java-core-3.4.1.jar:/Users/anujjain/.m2/repository/com/github/docker-java/docker-java-api/3.4.1/docker-java-api-3.4.1.jar:/Users/anujjain/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/anujjain/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/anujjain/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/anujjain/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/anujjain/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.1/docker-java-transport-httpclient5-3.4.1.jar:/Users/anujjain/.m2/repository/com/github/docker-java/docker-java-transport/3.4.1/docker-java-transport-3.4.1.jar:/Users/anujjain/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/anujjain/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/anujjain/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/anujjain/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/anujjain/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/anujjain/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/anujjain/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/anujjain/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/anujjain/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/anujjain/.m2/repository/io/qameta/allure/allure-testng/2.29.1/allure-testng-2.29.1.jar:/Users/anujjain/.m2/repository/io/qameta/allure/allure-test-filter/2.29.1/allure-test-filter-2.29.1.jar:/Users/anujjain/.m2/repository/io/qameta/allure/allure-java-commons/2.29.1/allure-java-commons-2.29.1.jar:/Users/anujjain/.m2/repository/io/qameta/allure/allure-model/2.29.1/allure-model-2.29.1.jar:/Users/anujjain/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.3/log4j-core-2.24.3.jar:/Users/anujjain/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/anujjain/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/anujjain/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="allure.results.directory" value="/Users/anujjain/Downloads/codeBase/tesla-assignment/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/anujjain"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/anujjain/Downloads/codeBase/tesla-assignment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/anujjain/Downloads/codeBase/tesla-assignment/target/surefire/surefirebooter-20250306004010192_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="22.0.2"/>
+    <property name="user.name" value="anujjain"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/anujjain/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/bn/79mbvmjj6x50wp2xr09_k9tc0000gp/T/"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="/Users/anujjain/Downloads/codeBase/tesla-assignment"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="webdriver.gecko.driver" value="/Users/anujjain/.cache/selenium/geckodriver/mac-arm64/0.36.0/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/anujjain/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="22.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testStockSearch[BABA, Alibaba, 130.0](1)" classname="tests.YahooFinanceTest" time="1.826">
+    <system-out><![CDATA[2025-03-06 00:40:10 [main] INFO  base.BaseTest - Initializing WebDriver...
+2025-03-06 00:40:22 [main] INFO  base.BaseTest - Navigated to: https://finance.yahoo.com/
+2025-03-06 00:40:22 [main] INFO  pages.YahooFinanceHomePage - Entered stock symbol: BABA
+2025-03-06 00:40:22 [main] INFO  pages.YahooFinanceHomePage - Auto-suggest dropdown displayed: true
+2025-03-06 00:40:22 [main] INFO  base.BaseTest - Auto-suggest appeared for: BABA
+2025-03-06 00:40:22 [main] INFO  pages.YahooFinanceHomePage - Auto-suggest verification for 'Alibaba': true
+2025-03-06 00:40:23 [main] INFO  pages.YahooFinanceHomePage - Clicked on first suggested stock.
+2025-03-06 00:40:23 [main] INFO  pages.YahooFinanceStockPage - Stock Price Retrieved: $140.42
+2025-03-06 00:40:23 [main] INFO  base.BaseTest - Stock Price Verified: 140.42
+2025-03-06 00:40:23 [main] INFO  pages.YahooFinanceStockPage - Previous Close Price Retrieved: $129.85
+2025-03-06 00:40:23 [main] INFO  base.BaseTest - Previous Close: 129.85
+2025-03-06 00:40:24 [main] INFO  pages.YahooFinanceStockPage - Stock Volume Retrieved: 27,682,064
+2025-03-06 00:40:24 [main] INFO  base.BaseTest - Volume: 27,682,064
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testStockSearch[TSLA, Tesla, 200.0](2)" classname="tests.YahooFinanceTest" time="2.036">
+    <system-out><![CDATA[2025-03-06 00:40:24 [main] INFO  pages.YahooFinanceHomePage - Entered stock symbol: TSLA
+2025-03-06 00:40:24 [main] INFO  pages.YahooFinanceHomePage - Auto-suggest dropdown displayed: true
+2025-03-06 00:40:24 [main] INFO  base.BaseTest - Auto-suggest appeared for: TSLA
+2025-03-06 00:40:24 [main] INFO  pages.YahooFinanceHomePage - Auto-suggest verification for 'Tesla': true
+2025-03-06 00:40:26 [main] INFO  pages.YahooFinanceHomePage - Clicked on first suggested stock.
+2025-03-06 00:40:26 [main] INFO  pages.YahooFinanceStockPage - Stock Price Retrieved: $277.31
+2025-03-06 00:40:26 [main] INFO  base.BaseTest - Stock Price Verified: 277.31
+2025-03-06 00:40:26 [main] INFO  pages.YahooFinanceStockPage - Previous Close Price Retrieved: $272.04
+2025-03-06 00:40:26 [main] INFO  base.BaseTest - Previous Close: 272.04
+2025-03-06 00:40:26 [main] INFO  pages.YahooFinanceStockPage - Stock Volume Retrieved: 68,747,257
+2025-03-06 00:40:26 [main] INFO  base.BaseTest - Volume: 68,747,257
+]]></system-out>
+  </testcase>
+  <testcase name="testStockSearch[DELL, Dell, 70.0](3)" classname="tests.YahooFinanceTest" time="1.16">
+    <system-out><![CDATA[2025-03-06 00:40:26 [main] INFO  pages.YahooFinanceHomePage - Entered stock symbol: DELL
+2025-03-06 00:40:26 [main] INFO  pages.YahooFinanceHomePage - Auto-suggest dropdown displayed: true
+2025-03-06 00:40:26 [main] INFO  base.BaseTest - Auto-suggest appeared for: DELL
+2025-03-06 00:40:26 [main] INFO  pages.YahooFinanceHomePage - Auto-suggest verification for 'Dell': true
+2025-03-06 00:40:27 [main] INFO  pages.YahooFinanceHomePage - Clicked on first suggested stock.
+2025-03-06 00:40:27 [main] INFO  pages.YahooFinanceStockPage - Stock Price Retrieved: $277.31
+2025-03-06 00:40:27 [main] INFO  base.BaseTest - Stock Price Verified: 277.31
+2025-03-06 00:40:27 [main] INFO  pages.YahooFinanceStockPage - Previous Close Price Retrieved: $272.04
+2025-03-06 00:40:27 [main] INFO  base.BaseTest - Previous Close: 272.04
+2025-03-06 00:40:27 [main] INFO  pages.YahooFinanceStockPage - Stock Volume Retrieved: 68,747,257
+2025-03-06 00:40:27 [main] INFO  base.BaseTest - Volume: 68,747,257
+]]></system-out>
+  </testcase>
+  <testcase name="testStockSearch[XYZ123, null, null](4)" classname="tests.YahooFinanceTest" time="20.419">
+    <system-out><![CDATA[2025-03-06 00:40:27 [main] INFO  pages.YahooFinanceHomePage - Entered stock symbol: XYZ123
+2025-03-06 00:40:37 [main] WARN  pages.YahooFinanceHomePage - Auto-suggest dropdown did not appear.
+2025-03-06 00:40:47 [main] INFO  pages.YahooFinanceHomePage - No suggestion message NOT found & stock does not exist.
+2025-03-06 00:40:47 [main] INFO  pages.YahooFinanceStockPage - Previous Close Price Retrieved: $94.07
+2025-03-06 00:40:47 [main] INFO  base.BaseTest - Previous Close: 94.07
+2025-03-06 00:40:47 [main] INFO  pages.YahooFinanceStockPage - Stock Volume Retrieved: 3,723,180
+2025-03-06 00:40:47 [main] INFO  base.BaseTest - Volume: 3,723,180
+]]></system-out>
+  </testcase>
+  <testcase name="testStockSearch[@#%$!, null, null](5)" classname="tests.YahooFinanceTest" time="20.415">
+    <system-out><![CDATA[2025-03-06 00:40:47 [main] INFO  pages.YahooFinanceHomePage - Entered stock symbol: @#%$!
+2025-03-06 00:40:57 [main] WARN  pages.YahooFinanceHomePage - Auto-suggest dropdown did not appear.
+2025-03-06 00:41:08 [main] INFO  pages.YahooFinanceHomePage - No suggestion message NOT found & stock does not exist.
+2025-03-06 00:41:08 [main] INFO  pages.YahooFinanceStockPage - Previous Close Price Retrieved: $94.07
+2025-03-06 00:41:08 [main] INFO  base.BaseTest - Previous Close: 94.07
+2025-03-06 00:41:08 [main] INFO  pages.YahooFinanceStockPage - Stock Volume Retrieved: 3,723,180
+2025-03-06 00:41:08 [main] INFO  base.BaseTest - Volume: 3,723,180
+]]></system-out>
+  </testcase>
+  <testcase name="testStockSearch[ , null, null](6)" classname="tests.YahooFinanceTest" time="20.441">
+    <system-out><![CDATA[2025-03-06 00:41:08 [main] INFO  pages.YahooFinanceHomePage - Entered stock symbol:  
+2025-03-06 00:41:18 [main] WARN  pages.YahooFinanceHomePage - Auto-suggest dropdown did not appear.
+2025-03-06 00:41:28 [main] INFO  pages.YahooFinanceHomePage - No suggestion message NOT found & stock does not exist.
+2025-03-06 00:41:28 [main] INFO  pages.YahooFinanceStockPage - Previous Close Price Retrieved: $94.07
+2025-03-06 00:41:28 [main] INFO  base.BaseTest - Previous Close: 94.07
+2025-03-06 00:41:28 [main] INFO  pages.YahooFinanceStockPage - Stock Volume Retrieved: 3,723,180
+2025-03-06 00:41:28 [main] INFO  base.BaseTest - Volume: 3,723,180
+]]></system-out>
+  </testcase>
+</testsuite>
