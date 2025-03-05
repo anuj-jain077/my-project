@@ -1,0 +1,50 @@
+# Ignore compiled Java class files
+*.class
+
+# Ignore JAR, WAR, and EAR files
+*.jar
+*.war
+*.ear
+
+# Ignore log files
+*.log
+
+# Ignore Maven target directory
+target/
+
+# Ignore Gradle build directory
+build/
+.gradle/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore NetBeans project files
+nbproject/
+build/
+dist/
+allure-results/
+.allure/
+.idea/
+tesla-assignment.iml
+tesla-assignment.ipr
+tesla-assignment.iws
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore environment configuration files
+*.env
+*.properties
+
+# Ignore dependency directories (if using Maven/Gradle)
+**/node_modules/
+**/.mvn/
