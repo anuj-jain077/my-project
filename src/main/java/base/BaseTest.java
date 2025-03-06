@@ -33,18 +33,10 @@ public class BaseTest {
         int explicitWait = Integer.parseInt(TestUtils.getConfigProperty("explicitWait"));
         String baseUrl = TestUtils.getConfigProperty("baseUrl");
 
-        switch (browser) {
-            case "firefox":
-                WebDriverManager.firefoxdriver().setup();
-                FirefoxOptions firefoxOptions = new FirefoxOptions();
-                driver = new FirefoxDriver(firefoxOptions);
-                break;
-            case "chrome":
-            default:
-                WebDriverManager.chromedriver().setup();
-                ChromeOptions chromeOptions = new ChromeOptions();
-                driver = new ChromeDriver(chromeOptions);
-                break;
+        driver = initializeDriver(browser);
+        if (driver == null) {
+            logger.error("Failed to initialize WebDriver. Exiting tests.");
+            throw new RuntimeException("WebDriver initialization failed.");
         }
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
@@ -55,6 +47,39 @@ public class BaseTest {
         // ✅ Initialize Pages
         homePage = new YahooFinanceHomePage(driver, wait);
         stockPage = new YahooFinanceStockPage(driver, wait);
+    }
+
+    private WebDriver initializeDriver(String browser) {
+        switch (browser) {
+            case "firefox":
+                try {
+                    WebDriverManager.firefoxdriver().setup();
+                    FirefoxOptions firefoxOptions = new FirefoxOptions();
+                    driver = new FirefoxDriver(firefoxOptions);
+                    logger.info("Firefox browser launched successfully.");
+                } catch (Exception e) {
+                    logger.warn("Firefox not available, switching to Chrome: " + e.getMessage());
+                    return initializeChromeDriver();
+                }
+                break;
+            case "chrome":
+            default:
+                return initializeChromeDriver();
+        }
+        return driver;
+    }
+
+    private WebDriver initializeChromeDriver() {
+        try {
+            WebDriverManager.chromedriver().setup();
+            ChromeOptions chromeOptions = new ChromeOptions();
+            driver = new ChromeDriver(chromeOptions);
+            logger.info("Chrome browser launched successfully.");
+        } catch (Exception e) {
+            logger.error("Failed to launch Chrome: " + e.getMessage());
+            driver = null;
+        }
+        return driver;
     }
 
     @AfterClass
@@ -68,6 +93,4 @@ public class BaseTest {
             }
         }
     }
-
 }
-
