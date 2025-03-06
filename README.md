@@ -56,7 +56,9 @@ mvn clean install
 
 1️⃣ Run All Tests
 
-mvn test
+mvn test 
+
+Note - If maven is not installed Please run - brew install maven
 
 2️⃣ Run Specific Test Suite
 
